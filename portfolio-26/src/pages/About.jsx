@@ -14,7 +14,7 @@ const timeline = [
   { year: "2026", event: "Sabi Designers Challenge — VoguePen homepage design",                          icon: <Layers size={15}/> },
   { year: "2025", event: "AccessNaija — Accessibility-first EdTech platform for Nigerian learners",      icon: <Award size={15}/> },
   { year: "2025", event: "RouteWise — Full-stack travel planner app (React + Amadeus API)",              icon: <Code2 size={15}/> },
-  { year: "2024", event: "Started software engineering & frontend development",                          icon: <Code2 size={15}/> },
+  { year: "2024", event: "Started software engineering & frontend development",                          icon: <Bot size={15}/> },
   { year: "2023", event: "Google UX Design Professional Certificate completed",                           icon: <Award size={15}/> },
   { year: "2022", event: "Educational Psychology — academic foundation in human learning & cognition",   icon: <BookOpen size={15}/> },
 ];

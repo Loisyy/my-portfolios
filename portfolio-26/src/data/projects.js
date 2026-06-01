@@ -1,6 +1,6 @@
-import landing from "../assets/AccessNaija-Landing page.png"
-import wireframe from "../assets/AccessNaija-wireframe.png.png"
-import home from "../assets/Route-wise.png"
+import landing from "../assets/accessNaija-landing page.png"
+import wireframe from "../assets/accessNaija-wireframe.png"
+import home from "../assets/route-wise.png"
 import selected from "../assets/selected.png"
 
 
@@ -66,7 +66,7 @@ export const uxProjects = [
   subtitle: "Fresh Grocery Delivery Mobile App",
   category: "UX Case Study",
   tags: ["Mobile App", "Grocery Tech", "Design System", "Figma"],
-  image: "src/assets/Verde-Home.png",
+  image: "src/assets/verde-Home.png",
   type: "ux",
   color: "#1D6B4E",
   bgLight: "#E3F2EB",
@@ -126,7 +126,7 @@ export const uxProjects = [
   subtitle: "Smart Event Networking Mobile App",
   category: "UX Case Study",
   tags: ["Mobile App", "Networking", "Design System", "Figma"],
-  image: "src/assets/ConnectrApp.png",
+  image: "src/assets/connectrApp.png",
   type: "ux",
   color: "#1E1E1E",
   bgLight: "#EEF0FA",
@@ -214,7 +214,7 @@ export const frontendProjects = [
     subtitle: "Interactive Job Board SPA with Advanced Filtering",
     category: "Full-Stack Frontend Project",
     tags: ["React", "TypeScript", "Tailwind CSS", "React Router", "Context API"],
-    image: "src/assets/Hirehub.png",
+    image: "src/assets/hirehub.png",
     color: "#4845ff",
     bgLight: "#f0f4ff",
     year: "2025",
@@ -241,7 +241,7 @@ export const frontendProjects = [
   subtitle: "Sustainable Fashion & Textile Waste Reduction Platform",
   category: "Frontend Project",
   tags: ["React", "Tailwind CSS", "Sustainability", "AI Demo"],
-  image: "src/assets/Eco-stitch.png",
+  image: "src/assets/eco-stitch.png",
   color: "#4E8B6B",
   bgLight: "#EEF7F1",
   year: "2025",
