@@ -5,7 +5,6 @@ import HeroImage from '../assets/heroImage.jpg';
 const TEXTS = [
   "Lois Nkeiruka",
   "UX Designer",
-  "UX Designer",
   "Frontend Engineer",
   "Emerging HCI researcher",
   "Human-Centred AI Advocate",
