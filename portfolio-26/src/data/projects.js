@@ -1,7 +1,10 @@
-import landing from "../assets/accessNaija-landing page.png"
-import wireframe from "../assets/accessNaija-wireframe.png"
-import home from "../assets/route-wise.png"
-import selected from "../assets/selected.png"
+import accessnaija from "../assets/accessLandingPage.png"
+import connector from "../assets/connectrApp.png"
+import verde from "../assets/verdeHome.png"
+//import wireframe from "../assets/accessNaija-wireframe.png"
+import routewisefeatured from "../assets/routeFeatured.png"
+import hirehubfeatured from "../assets/hirehubFeatured.png"
+import ecostitchfeatured from "../assets/ecostitchFeatured.png"
 
 
 export const uxProjects = [
@@ -11,8 +14,8 @@ export const uxProjects = [
     subtitle: "Accessibility-First Digital Learning for Nigerian Learners",
     category: "UX Case Study",
     tags: ["Accessibility", "EdTech", "UX Research", "Figma"],
-    image: landing,
-    wireframe: wireframe,
+    image: accessnaija,
+    //wireframe: wireframe,
     type: "ux",
     color: "#0EA5E9",
     bgLight: "#E0F2FE",
@@ -66,7 +69,8 @@ export const uxProjects = [
   subtitle: "Fresh Grocery Delivery Mobile App",
   category: "UX Case Study",
   tags: ["Mobile App", "Grocery Tech", "Design System", "Figma"],
-  image: "src/assets/verde-Home.png",
+  image: verde,
+    //wireframe: wireframe,
   type: "ux",
   color: "#1D6B4E",
   bgLight: "#E3F2EB",
@@ -126,7 +130,8 @@ export const uxProjects = [
   subtitle: "Smart Event Networking Mobile App",
   category: "UX Case Study",
   tags: ["Mobile App", "Networking", "Design System", "Figma"],
-  image: "src/assets/connectrApp.png",
+  image: connector,
+    //wireframe: wireframe,
   type: "ux",
   color: "#1E1E1E",
   bgLight: "#EEF0FA",
@@ -189,8 +194,8 @@ export const frontendProjects = [
     subtitle: "Responsive Travel Planner Web App",
     category: "Frontend Project",
     tags: ["React", "Tailwind CSS", "Amadeus API", "Vite"],
-     image: home,
-    featured: selected,
+    image: "src/assets/routeWise.png",
+    featured: routewisefeatured,
     color: "#3badeb",
     bgLight: "#adddf0",
     year: "2025",
@@ -214,7 +219,8 @@ export const frontendProjects = [
     subtitle: "Interactive Job Board SPA with Advanced Filtering",
     category: "Full-Stack Frontend Project",
     tags: ["React", "TypeScript", "Tailwind CSS", "React Router", "Context API"],
-    image: "src/assets/hirehub.png",
+    image: "src/assets/hireHub.png",
+    featured: hirehubfeatured,
     color: "#4845ff",
     bgLight: "#f0f4ff",
     year: "2025",
@@ -241,7 +247,8 @@ export const frontendProjects = [
   subtitle: "Sustainable Fashion & Textile Waste Reduction Platform",
   category: "Frontend Project",
   tags: ["React", "Tailwind CSS", "Sustainability", "AI Demo"],
-  image: "src/assets/eco-stitch.png",
+  image: "src/assets/ecoStitch.png",
+  featured: ecostitchfeatured,
   color: "#4E8B6B",
   bgLight: "#EEF7F1",
   year: "2025",
