@@ -1,11 +1,13 @@
-import accessnaija from "../assets/accessLandingPage.png"
-import connector from "../assets/connectrApp.png"
-import verde from "../assets/verdeHome.png"
+import accessnaijaImg from "../assets/accessLandingPage.png"
+import connectorImg from "../assets/connectrApp.png"
+import verdeImg from "../assets/verdeHome.png"
 //import wireframe from "../assets/accessNaija-wireframe.png"
-import routewisefeatured from "../assets/routeFeatured.png"
-import hirehubfeatured from "../assets/hirehubFeatured.png"
-import ecostitchfeatured from "../assets/ecostitchFeatured.png"
-
+import routewiseImg from "../assets/routeWise.png"
+import hirehubImg from "../assets/hireHub.png"
+import ecostitchImg from "../assets/ecoStitch.png"
+import routewiseFeatured from "../assets/routeFeatured.png"
+import hirehubFeatured from "../assets/hirehubFeatured.png"
+import ecostitchFeatured from "../assets/ecostitchFeatured.png"
 
 export const uxProjects = [
   {
@@ -14,7 +16,7 @@ export const uxProjects = [
     subtitle: "Accessibility-First Digital Learning for Nigerian Learners",
     category: "UX Case Study",
     tags: ["Accessibility", "EdTech", "UX Research", "Figma"],
-    image: accessnaija,
+    image: accessnaijaImg,  // ✅ Fixed: was "accessnaija"
     //wireframe: wireframe,
     type: "ux",
     color: "#0EA5E9",
@@ -69,7 +71,7 @@ export const uxProjects = [
   subtitle: "Fresh Grocery Delivery Mobile App",
   category: "UX Case Study",
   tags: ["Mobile App", "Grocery Tech", "Design System", "Figma"],
-  image: verde,
+  image: verdeImg,  // ✅ Fixed: was "verde"
     //wireframe: wireframe,
   type: "ux",
   color: "#1D6B4E",
@@ -130,7 +132,7 @@ export const uxProjects = [
   subtitle: "Smart Event Networking Mobile App",
   category: "UX Case Study",
   tags: ["Mobile App", "Networking", "Design System", "Figma"],
-  image: connector,
+  image: connectorImg,  // ✅ Fixed: was "connector"
     //wireframe: wireframe,
   type: "ux",
   color: "#1E1E1E",
@@ -194,8 +196,8 @@ export const frontendProjects = [
     subtitle: "Responsive Travel Planner Web App",
     category: "Frontend Project",
     tags: ["React", "Tailwind CSS", "Amadeus API", "Vite"],
-    image: "src/assets/routeWise.png",
-    featured: routewisefeatured,
+    image: routewiseImg,
+    featured: routewiseFeatured,  // ✅ Fixed: was "routewisefeatured"
     color: "#3badeb",
     bgLight: "#adddf0",
     year: "2025",
@@ -219,8 +221,8 @@ export const frontendProjects = [
     subtitle: "Interactive Job Board SPA with Advanced Filtering",
     category: "Full-Stack Frontend Project",
     tags: ["React", "TypeScript", "Tailwind CSS", "React Router", "Context API"],
-    image: "src/assets/hireHub.png",
-    featured: hirehubfeatured,
+    image: hirehubImg,
+    featured: hirehubFeatured,  // ✅ Fixed: was "hirehubfeatured"
     color: "#4845ff",
     bgLight: "#f0f4ff",
     year: "2025",
@@ -242,29 +244,28 @@ export const frontendProjects = [
     githubLink: "https://github.com/Loisyy/alx-job-board",
   },
   {
-  id: "ecostitch",
-  title: "EcoStitch",
-  subtitle: "Sustainable Fashion & Textile Waste Reduction Platform",
-  category: "Frontend Project",
-  tags: ["React", "Tailwind CSS", "Sustainability", "AI Demo"],
-  image: "src/assets/ecoStitch.png",
-  featured: ecostitchfeatured,
-  color: "#4E8B6B",
-  bgLight: "#EEF7F1",
-  year: "2025",
-  role: "Frontend Developer & UX Designer",
-  stack: ["React 18", "Vite", "Tailwind CSS", "Framer Motion", "AI Fabric Recognition Demo"],
-  features: [
-    "Interactive platform promoting sustainable fashion and textile reuse",
-    "AI-powered fabric recognition demo for identifying different fabric types",
-    "Educational sections highlighting climate awareness and anti-textile dumping advocacy",
-    "Community-focused experience with workshops and sustainable craftsmanship resources",
-    "Responsive storytelling layout showcasing circular fashion initiatives",
-    "Accessible and mobile-first design optimized across devices",
-  ],
-  uxNote:
-    "The platform was designed to emotionally connect users with sustainability through clean storytelling, immersive visual hierarchy, and intuitive navigation. UX decisions focused on accessibility, trust-building, and encouraging conscious fashion habits through engaging educational content and interactive experiences.",
-  liveLink: "https://my-projects-zxev.vercel.app/",
-  githubLink: "https://github.com/Loisyy/my-projects/tree/main/ecostitch",
-},
+    id: "ecostitch",
+    title: "EcoStitch",
+    subtitle: "Sustainable Fashion & Textile Waste Reduction Platform",
+    category: "Frontend Project",
+    tags: ["React", "Tailwind CSS", "Sustainability", "AI Demo"],
+    image: ecostitchImg,
+    featured: ecostitchFeatured,  // ✅ Fixed: was "ecostitchfeatured"
+    color: "#4E8B6B",
+    bgLight: "#EEF7F1",
+    year: "2025",
+    role: "Frontend Developer & UX Designer",
+    stack: ["React 18", "Vite", "Tailwind CSS", "Framer Motion", "AI Fabric Recognition Demo"],
+    features: [
+      "Interactive platform promoting sustainable fashion and textile reuse",
+      "AI-powered fabric recognition demo for identifying different fabric types",
+      "Educational sections highlighting climate awareness and anti-textile dumping advocacy",
+      "Community-focused experience with workshops and sustainable craftsmanship resources",
+      "Responsive storytelling layout showcasing circular fashion initiatives",
+      "Accessible and mobile-first design optimized across devices",
+    ],
+    uxNote: "The platform was designed to emotionally connect users with sustainability through clean storytelling, immersive visual hierarchy, and intuitive navigation. UX decisions focused on accessibility, trust-building, and encouraging conscious fashion habits through engaging educational content and interactive experiences.",
+    liveLink: "https://my-projects-zxev.vercel.app/",
+    githubLink: "https://github.com/Loisyy/my-projects/tree/main/ecostitch",
+  },
 ];
